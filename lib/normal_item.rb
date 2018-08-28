@@ -42,12 +42,4 @@ class NormalItem
 
     self.quality = self.quality - 1
   end
-
-  def debug(thing = nil)
-    if thing
-      puts "Thing: #{thing}"
-    else
-      puts "This: #{self.inspect}"
-    end
-  end
 end
