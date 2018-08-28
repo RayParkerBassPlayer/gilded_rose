@@ -1,7 +1,12 @@
 require "normal_item"
 
 class AgedBrie < NormalItem
-protected
+  def initialize(days_remaining:, quality:)
+    super(days_remaining: days_remaining, quality: quality)
+    @name = 'Aged Brie'
+  end
+  protected
+
   def tick_quality
     max_quality = 50
 
