@@ -1,5 +1,9 @@
 # Gilded Rose
 
+## What's Dis?
+
+This is the solution that I provided for the code test phase of an interview process.  It's the classic refactoring quiz.  The rest of the file is the original provided to me.
+
 ## Task
 
 Implement code for `Conjured Mana Cake`.
