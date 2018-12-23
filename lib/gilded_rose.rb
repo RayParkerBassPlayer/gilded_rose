@@ -19,7 +19,7 @@ class GildedRose
     when 'Normal Item'
       NormalItem.new(days_remaining: days_remaining, quality: quality)
     else
-      raise "Unknow type requested. #{__FILE__}:#{__LINE__}"
+      raise "Unknown type requested. #{__FILE__}:#{__LINE__}"
     end
   end
 end
